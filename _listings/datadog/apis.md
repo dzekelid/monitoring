@@ -30,7 +30,7 @@ apis:
   tags: Monitoring
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/monitoring/master/_listings/datadog/downtime-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/monitoring/master/_listings/datadog/downtime-downtime-id-put.md
 x-common:
 - type: x-blog
   url: https://www.datadoghq.com/blog/
