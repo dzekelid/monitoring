@@ -28,7 +28,7 @@ apis:
   tags: Monitoring
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/monitoring/master/_listings/apimetrics/tokens-auth-auth-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/monitoring/master/_listings/apimetrics/tokens-id-delete.md
 x-common:
 - type: x-base-url
   url: https://client.apimetrics.io
