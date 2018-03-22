@@ -28,7 +28,7 @@ apis:
   tags: Monitoring
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/apimetrics/calls-id-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/apimetrics/calls-id-run-post.md
 x-common:
 - type: x-base-url
   url: https://client.apimetrics.io
