@@ -12,9 +12,9 @@ x-alexaRank: ""
 tags:
 - Stack Network
 - Monitoring
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/monitoring/master/_listings/google-stackdriver-monitoring-api/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/google-stackdriver-monitoring-api/apis.yaml
 specificationVersion: "0.14"
 apis: []
 x-common:
