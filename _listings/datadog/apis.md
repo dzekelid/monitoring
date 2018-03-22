@@ -30,7 +30,7 @@ apis:
   tags: Monitoring
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/datadog/dash-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/datadog/dash-dash-id-put.md
 x-common:
 - type: x-blog
   url: https://www.datadoghq.com/blog/
