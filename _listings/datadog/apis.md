@@ -30,7 +30,7 @@ apis:
   tags: Monitoring
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/datadog/graph-embed-embed-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/datadog/graph-embed-embed-id-enable-get.md
 x-common:
 - type: x-blog
   url: https://www.datadoghq.com/blog/
