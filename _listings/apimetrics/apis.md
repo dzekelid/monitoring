@@ -29,15 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/apimetrics/workflows-id-put.md
-- name: APIMetrics Delete an Authentication Setting
-  description: Delete an Authentication Setting
+- name: APIMetrics Get an existing Authentication Setting
+  description: Get an existing Authentication Setting
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
   humanURL: http://apimetrics.io
   baseURL: https://{host}//
   tags: Monitoring
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/apimetrics/auth-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/apimetrics/auth-id-get.md
 x-common:
 - type: x-base-url
   url: https://client.apimetrics.io
