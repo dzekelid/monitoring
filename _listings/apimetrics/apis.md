@@ -29,15 +29,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/apimetrics/workflows-id-put.md
-- name: APIMetrics List API Calls by Authentication
-  description: List API Calls by Authentication
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
-  humanURL: http://apimetrics.io
-  baseURL: https://{host}//
-  tags: Monitoring
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/apimetrics/calls-auth-auth-id-get.md
 x-common:
 - type: x-base-url
   url: https://client.apimetrics.io
