@@ -31,15 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/datadog/graph-embed-embed-id-enable-get.md
-- name: DataDog API Get Graph Embed Embed
-  description: Get the HTML fragment for a previously generated embed with embed_id.
+- name: DataDog API Get Graph Embed Embed  Enable
+  description: Enable a specified embed.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
   humanURL: https://www.datadoghq.com/
   baseURL: https://{host}/api/v1/
   tags: Monitoring
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/datadog/graph-embed-embed-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/datadog/graph-embed-embed-id-enable-get.md
 x-common:
 - type: x-blog
   url: https://www.datadoghq.com/blog/
