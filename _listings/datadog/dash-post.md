@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: DataDog Merged API
+  title: DataDog API Add Dash
   version: 1.0.0
+  description: Create a Timeboard
 basePath: api/v1/
 schemes:
 - http
@@ -18,7 +19,7 @@ paths:
       operationId: postDash
       parameters:
       - in: query
-        name: '{requests: [{q: system.cpu.idle{*} by {host}}'
+        name: '{requests: [{q: system.cpu.idle{} by {host}}'
         description: "\n                \n              \n            "
         type: string
       responses:
