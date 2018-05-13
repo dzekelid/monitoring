@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: DataDog Merged API
+  title: DataDog API Add Monitor
   version: 1.0.0
+  description: Create a monitor
 basePath: api/v1/
 schemes:
 - http
