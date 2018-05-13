@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: APImetrics Merged API
+  title: APIMetrics Delete an Auth Token
   version: 1.0.0
+  description: Delete an Auth Token
 schemes:
 - http
 produces:
