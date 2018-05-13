@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: DataDog Merged API
+  title: DataDog API Add Downtime
   version: 1.0.0
+  description: Schedule monitor downtime
 basePath: api/v1/
 schemes:
 - http
