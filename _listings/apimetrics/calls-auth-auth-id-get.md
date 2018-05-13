@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: APImetrics Merged API
+  title: APIMetrics List API Calls by Authentication
   version: 1.0.0
+  description: List API Calls by Authentication
 schemes:
 - http
 produces:
