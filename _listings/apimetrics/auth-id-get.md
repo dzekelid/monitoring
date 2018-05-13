@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: APImetrics Merged API
+  title: APIMetrics Get an existing Authentication Setting
   version: 1.0.0
+  description: Get an existing Authentication Setting
 schemes:
 - http
 produces:
