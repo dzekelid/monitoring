@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: DataDog Merged API
+  title: DataDog API Get Graph Embed Embed
   version: 1.0.0
+  description: Get the HTML fragment for a previously generated embed with embed_id.
 basePath: api/v1/
 schemes:
 - http
