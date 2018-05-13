@@ -29,15 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/apimetrics/workflows-id-put.md
-- name: APIMetrics Get all tokens for an Authentication Setting
-  description: Get all tokens for an Authentication Setting
+- name: APIMetrics Delete an Auth Token
+  description: Delete an Auth Token
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
   humanURL: http://apimetrics.io
   baseURL: https://{host}//
   tags: Monitoring
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/apimetrics/tokens-auth-auth-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/apimetrics/tokens-id-delete.md
 x-common:
 - type: x-base-url
   url: https://client.apimetrics.io
