@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: DataDog Merged API
+  title: DataDog API Get Graph Embed Embed  Enable
   version: 1.0.0
+  description: Enable a specified embed.
 basePath: api/v1/
 schemes:
 - http
