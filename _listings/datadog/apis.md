@@ -31,15 +31,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/datadog/graph-embed-embed-id-enable-get.md
-- name: DataDog API Get Graph Snapshot
-  description: GET graph snapshot
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
-  humanURL: https://www.datadoghq.com/
-  baseURL: https://{host}/api/v1/
-  tags: Monitoring
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/datadog/graph-snapshot-get.md
 x-common:
 - type: x-blog
   url: https://www.datadoghq.com/blog/
