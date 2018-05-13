@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: APImetrics Merged API
+  title: APIMetrics Create a new Auth Token
   version: 1.0.0
+  description: Create a new Auth Token
 schemes:
 - http
 produces:
