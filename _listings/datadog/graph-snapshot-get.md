@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: DataDog Merged API
+  title: DataDog API Get Graph Snapshot
   version: 1.0.0
+  description: GET graph snapshot
 basePath: api/v1/
 schemes:
 - http
