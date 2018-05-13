@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: APImetrics Merged API
+  title: APIMetrics Update an existing API Call
   version: 1.0.0
+  description: Update an existing API Call
 schemes:
 - http
 produces:
