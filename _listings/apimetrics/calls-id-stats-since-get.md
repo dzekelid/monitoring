@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: APImetrics Merged API
+  title: APIMetrics List Stats since a date for an API Call
   version: 1.0.0
+  description: List Stats since a date for an API Call
 schemes:
 - http
 produces:
