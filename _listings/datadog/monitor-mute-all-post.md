@@ -1,8 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: DataDog Merged API
+  title: DataDog API Add Monitor Mute All
   version: 1.0.0
+  description: |-
+    Muting will prevent all monitors from notifying through email and posts
+            to the event stream. State changes will only be visible by checking
+            the alert page.
 basePath: api/v1/
 schemes:
 - http
