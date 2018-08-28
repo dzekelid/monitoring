@@ -1,24 +1,24 @@
 ---
 name: PagerDuty
-description: 'PagerDuty is the 911 dispatch system for IT, helping operations engineers,
-  DevOps and developers resolve IT system problems as quickly as possible. PagerDuty
-  aggregates errors from all of your IT monitoring tools and handles the people part
-  of the equation: alerting via phone, SMS or email, on-call scheduling and automatic
-  escalation of critical incidents.'
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/632_logo.png
+x-slug: pagerduty
+description: See how PagerDuty Digital Operations Management Platform integrates machine
+  data & human intelligence to improve visibility & agility across organizations.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Notifications
-- Monitoring
-- Incident
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/monitoring/master/_listings/pagerduty/apis.yaml
+x-alexaRank: "18918"
+tags: Monitoring
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/pagerduty/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-website
+  url: http://www.pagerduty.com/
+- type: x-api-gallery
+  url: http://paccurate.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://pagerduty.stack.network
 - type: x-base
   url: https://acme.pagerduty.com/api/
 - type: x-blog
@@ -27,10 +27,24 @@ x-common:
   url: http://blog.pagerduty.com/feed/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/pagerduty
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/pagerduty
 - type: x-developer
   url: http://developer.pagerduty.com/
+- type: x-email
+  url: info@pagerduty.com
+- type: x-email
+  url: sales@pagerduty.com
+- type: x-email
+  url: support@pagerduty.com
+- type: x-email
+  url: legal@pagerduty.com
+- type: x-email
+  url: privacy@pagerduty.com
 - type: x-github
   url: https://github.com/PagerDuty
+- type: x-linkedin
+  url: https://www.linkedin.com/company/pagerduty
 - type: x-openapi-spec--authoritative
   url: https://api-reference.pagerduty.com/output.json
 - type: x-pricing

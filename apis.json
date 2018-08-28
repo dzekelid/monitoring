@@ -1,0 +1,907 @@
+{
+	"name": "Streadata.io API Gallery - Monitoring",
+	"description": "This is a repository of monitoring APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/monitoring.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://monitoring.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "SendGrid",
+			"x-api-slug": "sendgrid",
+			"description": "Delivering your transactional and marketing emails through the worlds largest cloud-based email delivery platform. Send with confidence.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg",
+			"humanURL": "http://sendgrid.com",
+			"baseURL": "https:///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/sendgrid/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "511 Bay Area",
+			"x-api-slug": "511-bay-area",
+			"description": "511 is your free one-stop phone and web source for up-to-the minute Bay Area traffic, transit, rideshare, bicycling, and parking information.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_511_128x128_400x400.jpg",
+			"humanURL": "http://www.511.org/",
+			"baseURL": "https://api.511.org//transit",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/511-bay-area/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Pingdom",
+			"x-api-slug": "pingdom",
+			"description": "Monitor your websites availability and performance for free with Pingdom and always be the first to know when your website is down. No installation required.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg",
+			"humanURL": "http://www.pingdom.com",
+			"baseURL": "https://api.pingdom.com//",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/pingdom/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Server Density",
+			"x-api-slug": "server-density",
+			"description": "SaaS infrastructure monitoring. Dashboards, graphs and alerts to help you improve performance and maintain uptime. Organizer of @humanops",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg",
+			"humanURL": "https://www.serverdensity.com",
+			"baseURL": "://api.serverdensity.io./",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/server-density/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Site24x7",
+			"x-api-slug": "site24x7",
+			"description": "Site24x7 offers both free & paid website monitoring services. Monitor websites remotely and receive instant email/sms alerts if your website becomes unavailable. View uptime & performance graphs of your website monitors.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/481-site24x7.jpg",
+			"humanURL": "https://www.site24x7.com/",
+			"baseURL": "://www.site24x7.com./",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/site24x7/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PagerDuty",
+			"x-api-slug": "pagerduty",
+			"description": "See how PagerDuty Digital Operations Management Platform integrates machine data & human intelligence to improve visibility & agility across organizations.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg",
+			"humanURL": "http://www.pagerduty.com/",
+			"baseURL": "https:///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/pagerduty/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BMC Software",
+			"x-api-slug": "bmc-software",
+			"description": "Transform your digital enterprise with BMC IT solutions. From mainframe to cloud to mobile, we???ll help you drive innovation and industrial efficiency.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg",
+			"humanURL": "http://www.bmc.com",
+			"baseURL": "https:///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/bmc-software/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EPA Envirofacts",
+			"x-api-slug": "epa-envirofacts",
+			"description": "EPAs purpose is to ensure that:    -  all Americans are protected from significant risks to human health and the environment where they live, learn and work;    -  national efforts to reduce environmental risk are based on the best available scientifi...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/773-epa-envirofacts.jpg",
+			"humanURL": "http://www.epa.gov",
+			"baseURL": "https://ofmpub.epa.gov//echo",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/epa-envirofacts/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Sensr.net",
+			"x-api-slug": "sensr-net",
+			"description": "Sensr.net keeps track of interesting images and alert you when something happens. Were starting off with basic motion detection. We keep the images around and organize them by time and day. Well send you an email or a text message if youd like when ...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/924-sensr-net.jpg",
+			"humanURL": "https://sensr.net/api",
+			"baseURL": "https:///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/sensr-net/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SmartBear Software",
+			"x-api-slug": "smartbear-software",
+			"description": "Testing and Development teams around the world use SmartBears automation, development and monitoring tools to build better software and applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1157-smartbear-software.jpg",
+			"humanURL": "http://smartbear.com/",
+			"baseURL": "://testserver.readyapi.io:8080//v1",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/smartbear-software/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BlazeMeter",
+			"x-api-slug": "blazemeter",
+			"description": "BlazeMeter platform for load and performance testing enables dev and QA teams to run scalable and continuous testing for website, mobile, api and software",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1297-blazemeter.jpg",
+			"humanURL": "http://blazemeter.com/",
+			"baseURL": "https://a.blazemeter.com//api/v4",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/blazemeter/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Sift Science",
+			"x-api-slug": "sift-science",
+			"description": "Block fraud, provide a better customer experience, and grow your revenue through the machine learning Sift Science Trust Platform. Fast, accurate, and reliable data. Talk to a fraud expert today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1475-sift-science.jpg",
+			"humanURL": "https://siftscience.com/",
+			"baseURL": "https:///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/sift-science/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Runscope",
+			"x-api-slug": "runscope",
+			"description": "API performance monitoring. Everything is going to be 200 OK",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg",
+			"humanURL": "http://runscope.com",
+			"baseURL": "https://api.runscope.com//",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/runscope/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "APImetrics",
+			"x-api-slug": "apimetrics",
+			"description": "API performance monitoring, Cloud Service, SLA monitoring and analysis that gives you answers, not excuses. Find out how today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg",
+			"humanURL": "http://apimetrics.io",
+			"baseURL": "https:///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/apimetrics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "API Science",
+			"x-api-slug": "api-science",
+			"description": "Traditional monitoring services were designed long before APIs became core to modern applications. API Science is designed specifically for monitoring APIs. Sure, we understand REST, JSON, OAuth, XML. No problem.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png",
+			"humanURL": "http://apiscience.com",
+			"baseURL": "https:///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/api-science/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "API Fortress",
+			"x-api-slug": "api-fortress",
+			"description": "API Fortress: Automated API Testing for Enterprises",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2946-api-fortress.jpg",
+			"humanURL": "http://apifortress.com",
+			"baseURL": "https:///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/api-fortress/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AppNeta",
+			"x-api-slug": "appneta",
+			"description": "AppNetas award-winning suite of network monitoring tools allow unparalleled SaaS-based application end-user performance monitoring for 100% delivery confidence. Request a free demo!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11161-appneta.jpg",
+			"humanURL": "http://www.appneta.com/",
+			"baseURL": "https:///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/appneta/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Watchful",
+			"x-api-slug": "watchful",
+			"description": "Watchful resulted from the need for a single, unified dashboard to easily monitor all of the web sites in our portfolios. After years of evolution, our solution has matured into a simple, complete and professional service.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/watchful-li-logo.jpg",
+			"humanURL": "http://watchful.li",
+			"baseURL": "https://watchful.li//api/v1",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/watchful/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Red Canary",
+			"x-api-slug": "red-canary",
+			"description": "Every organization needs detection and response capabilities to defend against today???s threats. Learn how Red Canary can help your company stay protected.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18713-red-canary.jpg",
+			"humanURL": "https://www.redcanary.co/",
+			"baseURL": "https:///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/red-canary/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Pingometer",
+			"x-api-slug": "pingometer",
+			"description": "Pingometer is a service that monitors the uptime, downtime, and performance of websites. Get 24/7 monitoring - sign up for your FREE account today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18847-pingometer.jpg",
+			"humanURL": "https://pingometer.com/",
+			"baseURL": "https://api.pingdom.com//",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/pingometer/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "StatusPage",
+			"x-api-slug": "statuspage",
+			"description": "StatusPage.io is the best way for web infrastructure, developer API, and SaaS companies to get set up with their very own status page in minutes",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18898-statuspage-io.jpg",
+			"humanURL": "https://www.statuspage.io/",
+			"baseURL": "https:///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/statuspage/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "APIBond",
+			"x-api-slug": "apibond",
+			"description": "APIBond is an API management platform that acts as a proxy where you can validate, transform, secure, analyze and scale any existing API.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apibond-logo.png",
+			"humanURL": "http://apibond.com/",
+			"baseURL": "https:///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/apibond/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "appFigures",
+			"x-api-slug": "appfigures",
+			"description": "",
+			"image": "",
+			"humanURL": "https://appfigures.com/",
+			"baseURL": "https:///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/appfigures/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DNS Check",
+			"x-api-slug": "dns-check",
+			"description": "Monitor DNS records. Request DNS updates by sharing reports that show the pass/fail status of each record. Troubleshoot DNS issues. DNS records are automatically re-checked, and reports updated. DNS records can be imported from a zone file, or added in...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18972-dns-check.jpg",
+			"humanURL": "https://www.dnscheck.co/",
+			"baseURL": "https://www.dnscheck.co//api/v1",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/dns-check/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Apica",
+			"x-api-slug": "apica",
+			"description": "Apicas performance testing and monitoring solutions provide critical peak performance data and 24/7 monitoring of applications and sites around the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg",
+			"humanURL": "https://www.apicasystem.com",
+			"baseURL": ":///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/apica/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Uptrends",
+			"x-api-slug": "uptrends",
+			"description": "Monitor website uptime, optimize performance and monitor multiple steps from 165+ locations, incl. alerts. Free & paid website monitoring services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19380-uptrends-(slackbot).jpg",
+			"humanURL": "https://www.uptrends.com/integrations/slack",
+			"baseURL": "https:///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/uptrends/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Netsil",
+			"x-api-slug": "netsil",
+			"description": "Netsil provides observability and monitoring for cloud apps. DevOps teams use Netsils auto-discovered maps & analytics to assure uptime and performance.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19932-netsil.jpg",
+			"humanURL": "http://netsil.com/",
+			"baseURL": "https:///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/netsil/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Uptrends",
+			"x-api-slug": "uptrends",
+			"description": "Monitor website uptime, optimize performance and monitor multiple steps from 165+ locations, incl. alerts. Free & paid website monitoring services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19939-uptrends.jpg",
+			"humanURL": "https://www.uptrends.com",
+			"baseURL": "https:///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/uptrends/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "API Owl",
+			"x-api-slug": "api-owl",
+			"description": "API Owl is a Florida headquartered start-up offering modern tooling, testing, and monitoring for keeping your most mission critical APIs from misbehaving in addition to assisting in their development and deployment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-owl.png",
+			"humanURL": "https://apiowl.com/",
+			"baseURL": "https:///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/api-owl/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Nagios",
+			"x-api-slug": "nagios",
+			"description": "Nagios provides enterprise-class Open Source IT monitoring, network monitoring, server and applications monitoring. Download Nagios Today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19943-nagios.jpg",
+			"humanURL": "https://www.nagios.org/",
+			"baseURL": "https:///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/nagios/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "VictorOps",
+			"x-api-slug": "victorops",
+			"description": "VictorOps incident managament software gives DevOps observability, collaboration, & real-time alerting, to build, deploy, & operate software. Learn more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-victorops.jpg",
+			"humanURL": "http://victorops.com",
+			"baseURL": "https://api.victorops.com//",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/victorops/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "VMWare",
+			"x-api-slug": "vmware",
+			"description": "At VMware, we believe that software has the power to unlock new opportunities for people and our planet. We look beyond the barriers of compromise to engineer new ways to make technologies work together seamlessly. Our software forms a digital foundation that powers the apps, services and experiences that are transforming the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png",
+			"humanURL": "http://vmware.com",
+			"baseURL": "https://example.com//suite-api/api",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/vmware/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Datadog",
+			"x-api-slug": "datadog",
+			"description": "See inside any stack, any app, at any scale, anywhere.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg",
+			"humanURL": "https://www.datadoghq.com/",
+			"baseURL": "https:///api/v1/",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/datadog/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "New Relic",
+			"x-api-slug": "new-relic",
+			"description": "New Relic???s digital intelligence platform lets developers, ops, and tech teams measure and monitor the performance of their applications and infrastructure.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg",
+			"humanURL": "https://newrelic.com/",
+			"baseURL": "https:///v2/",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/new-relic/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS CloudWatch",
+			"x-api-slug": "aws-cloudwatch",
+			"description": "Amazon CloudWatch is a monitoring service for AWS cloud resources and the applications you run on AWS. You can use Amazon CloudWatch to collect and track metrics, collect and monitor log files, set alarms, and automatically react to changes in your AWS resources. Amazon CloudWatch can monitor AWS resources such as Amazon EC2 instances, Amazon DynamoDB tables, and Amazon RDS DB instances, as well as custom metrics generated by your applications and services, and any log files your applications generate. You can use Amazon CloudWatch to gain system-wide visibility into resource utilization, application performance, and operational health. You can use these insights to react and keep your application running smoothly.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png",
+			"humanURL": "https://aws.amazon.com/cloudwatch/",
+			"baseURL": ":///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/aws-cloudwatch/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Stackdriver Monitoring",
+			"x-api-slug": "google-stackdriver-monitoring",
+			"description": "Google Stackdriver provides powerful monitoring, logging, and diagnostics. It equips you with insight into the health, performance, and availability of cloud-powered applications, enabling you to find and fix issues faster. It is natively integrated with Google Cloud Platform, Amazon Web Services, and popular open source packages. Stackdriver provides a wide variety of metrics, dashboards, alerting, log management, reporting, and tracing capabilities.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-stackdriver.png",
+			"humanURL": "https://cloud.google.com/monitoring/docs/",
+			"baseURL": "https:///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/google-stackdriver-monitoring/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS X-Ray",
+			"x-api-slug": "aws-xray",
+			"description": "AWS X-Ray helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture. With X-Ray, you can understand how your application and its underlying services are performing to identify and troubleshoot the root cause of performance issues and errors. X-Ray provides an end-to-end view of requests as they travel through your application, and shows a map of your applications underlying components. You can use X-Ray to analyze both applications in development and in production, from simple three-tier applications to complex microservices applications consisting of thousands of services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-xray.png",
+			"humanURL": "https://aws.amazon.com/xray/",
+			"baseURL": ":///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/aws-xray/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2",
+			"x-api-slug": "aws-ec2",
+			"description": "Amazon Elastic Compute Cloud is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon&rsquo;s proven computing environment. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change. Amazon EC2 changes the economics of computing by allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/",
+			"baseURL": ":///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/aws-ec2/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Service Control",
+			"x-api-slug": "google-service-control",
+			"description": "Google Service Control is a Google Cloud Platform infrastructure service. It provides control plane functionality to managed services, such as logging, monitoring, and status checks. It is widely used by Google APIs and Google Cloud Endpoints. This page provides an overview of what it does and how it works.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2017-03-17 at 3.49.30 PM.png",
+			"humanURL": "https://cloud.google.com/service-control/overview",
+			"baseURL": "://servicecontrol.googleapis.com//",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/google-service-control/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Monitor",
+			"x-api-slug": "azure-monitor",
+			"description": "Autoscale is a built-in feature of Cloud Services, Mobile Services, Virtual Machines, and Websites that helps applications perform their best when demand changes. Of course, performance means different things for different applications. Some apps are CPU-bound, others memory-bound. For example, you could have a web app that handles millions of requests during the day and none at night. Autoscale can scale your service by any of these&mdash;or by a custom metric you define.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/manage-monitoring-data.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/monitor/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/azure-monitor/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Application Insights",
+			"x-api-slug": "azure-application-insights",
+			"description": "Get rich performance monitoring, powerful alerting, and easy-to-consume dashboards to help ensure your applications are available and performing as you expect. Quickly see if you have a problem, how many customers are affected, and perform a root cause analysis to find and fix the issue.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/performance-management.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/application-insights/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/azure-application-insights/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Resource Health",
+			"x-api-slug": "azure-resource-health",
+			"description": "Resource health helps you diagnose and get support when an Azure issue impacts your resources. It informs you about the current and past health of your resources and helps you mitigate issues. Resource health provides technical support when you need help with Azure service issues.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-health.png",
+			"humanURL": "https://docs.microsoft.com/en-us/azure/resource-health/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/azure-resource-health/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Gremlin",
+			"x-api-slug": "gremlin",
+			"description": "Downtime is expensive and can hurt your brand. Gremlin provides engineers with the framework to safely, securely, and easily simulate real outages with an ever-growing library of attacks. Turn failure into resilience with chaos engineering.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28174-www-gremlin-com.jpg",
+			"humanURL": "https://www.gremlin.com",
+			"baseURL": "https:///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/gremlin/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CollabNet",
+			"x-api-slug": "collabnet",
+			"description": "CollabNet is a software development and delivery solutions provider headquartered in South San Francisco, California.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28840-community-versionone-com.jpg",
+			"humanURL": "https://www.collab.net/",
+			"baseURL": "https:////ctfrest/foundation/v1",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/collabnet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RingCentral",
+			"x-api-slug": "ringcentral",
+			"description": "RingCentral, Inc. (NYSE: RNG) is a global provider of cloud enterprise unified communications and collaboration solutions. More flexible and cost-effective than legacy on-premise systems, RingCentral empowers today&rsquo;s mobile and distributed workforces to be connected anywhere and on any device through voice, video, team messaging, collaboration, SMS, conferencing, online meetings, contact center, and fax. RingCentral provides an open platform that integrates with today&rsquo;s leading business apps while giving customers the flexibility to customize their own workflows.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg",
+			"humanURL": "http://www.ringcentral.com",
+			"baseURL": "https://platform.ringcentral.com//",
+			"tags": "Monitoring",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/ringcentral/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Monitoring",
+	"include": [
+		{
+			"name": "SendGrid",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/sendgrid/apis.yaml"
+		},
+		{
+			"name": "511 Bay Area",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/511-bay-area/apis.yaml"
+		},
+		{
+			"name": "Pingdom",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/pingdom/apis.yaml"
+		},
+		{
+			"name": "Server Density",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/server-density/apis.yaml"
+		},
+		{
+			"name": "Site24x7",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/site24x7/apis.yaml"
+		},
+		{
+			"name": "PagerDuty",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/pagerduty/apis.yaml"
+		},
+		{
+			"name": "BMC Software",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/bmc-software/apis.yaml"
+		},
+		{
+			"name": "EPA Envirofacts",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/epa-envirofacts/apis.yaml"
+		},
+		{
+			"name": "Sensr.net",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/sensr-net/apis.yaml"
+		},
+		{
+			"name": "SmartBear Software",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/smartbear-software/apis.yaml"
+		},
+		{
+			"name": "BlazeMeter",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/blazemeter/apis.yaml"
+		},
+		{
+			"name": "Sift Science",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/sift-science/apis.yaml"
+		},
+		{
+			"name": "Runscope",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/runscope/apis.yaml"
+		},
+		{
+			"name": "APImetrics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/apimetrics/apis.yaml"
+		},
+		{
+			"name": "API Science",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/api-science/apis.yaml"
+		},
+		{
+			"name": "API Fortress",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/api-fortress/apis.yaml"
+		},
+		{
+			"name": "AppNeta",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/appneta/apis.yaml"
+		},
+		{
+			"name": "Watchful",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/watchful/apis.yaml"
+		},
+		{
+			"name": "Red Canary",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/red-canary/apis.yaml"
+		},
+		{
+			"name": "Pingometer",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/pingometer/apis.yaml"
+		},
+		{
+			"name": "StatusPage",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/statuspage/apis.yaml"
+		},
+		{
+			"name": "APIBond",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/apibond/apis.yaml"
+		},
+		{
+			"name": "appFigures",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/appfigures/apis.yaml"
+		},
+		{
+			"name": "DNS Check",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/dns-check/apis.yaml"
+		},
+		{
+			"name": "Apica",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/apica/apis.yaml"
+		},
+		{
+			"name": "Uptrends",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/uptrends/apis.yaml"
+		},
+		{
+			"name": "Netsil",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/netsil/apis.yaml"
+		},
+		{
+			"name": "Uptrends",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/uptrends/apis.yaml"
+		},
+		{
+			"name": "API Owl",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/api-owl/apis.yaml"
+		},
+		{
+			"name": "Nagios",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/nagios/apis.yaml"
+		},
+		{
+			"name": "VictorOps",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/victorops/apis.yaml"
+		},
+		{
+			"name": "VMWare",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/vmware/apis.yaml"
+		},
+		{
+			"name": "Datadog",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/datadog/apis.yaml"
+		},
+		{
+			"name": "New Relic",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/new-relic/apis.yaml"
+		},
+		{
+			"name": "AWS CloudWatch",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/aws-cloudwatch/apis.yaml"
+		},
+		{
+			"name": "Google Stackdriver Monitoring",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/google-stackdriver-monitoring/apis.yaml"
+		},
+		{
+			"name": "AWS X-Ray",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/aws-xray/apis.yaml"
+		},
+		{
+			"name": "AWS EC2",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/aws-ec2/apis.yaml"
+		},
+		{
+			"name": "Google Service Control",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/google-service-control/apis.yaml"
+		},
+		{
+			"name": "Azure Monitor",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/azure-monitor/apis.yaml"
+		},
+		{
+			"name": "Azure Application Insights",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/azure-application-insights/apis.yaml"
+		},
+		{
+			"name": "Azure Resource Health",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/azure-resource-health/apis.yaml"
+		},
+		{
+			"name": "Gremlin",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/gremlin/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "CollabNet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/collabnet/apis.yaml"
+		},
+		{
+			"name": "RingCentral",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/ringcentral/apis.yaml"
+		}
+	]
+}

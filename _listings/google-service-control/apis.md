@@ -1,5 +1,6 @@
 ---
 name: Google Service Control
+x-slug: google-service-control
 description: Google Service Control is a Google Cloud Platform infrastructure service.
   It provides control plane functionality to managed services, such as logging, monitoring,
   and status checks. It is widely used by Google APIs and Google Cloud Endpoints.
@@ -7,30 +8,18 @@ description: Google Service Control is a Google Cloud Platform infrastructure se
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
   Shot 2017-03-17 at 3.49.30 PM.png
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Status
-- Stack Network
-- Reliability
-- Monitoring
-- Logging
-- Google APIs
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/monitoring/master/_listings/google-service-control/apis.yaml
+x-alexaRank: "0"
+tags: Monitoring
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/google-service-control/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Google Service Control API
-  description: Google Service Control is a Google Cloud Platform infrastructure service
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
-    Shot 2017-03-17 at 3.49.30 PM.png
-  humanURL: ""
-  baseURL: ://servicecontrol.googleapis.com//
-  tags: Monitoring
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/monitoring/master/_listings/google-service-control/v1-services-servicename-startreconciliation-post.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://google.search.console.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.service.control.stack.network
 - type: x-change-log
   url: https://cloud.google.com/service-control/release-notes
 - type: x-code

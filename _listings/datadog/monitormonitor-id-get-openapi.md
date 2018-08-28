@@ -597,6 +597,17 @@ paths:
       tags:
       - Monitoring
       - Monitor
+    get:
+      summary: Get Monitor
+      description: Get all monitor details
+      operationId: getMonitor
+      x-api-path-slug: monitor-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - Monitor
   /monitor/:monitor_id:
     get:
       summary: Get Monitor Monitor
@@ -610,6 +621,237 @@ paths:
       - Monitoring
       - Monitor
       - Monitor
+    put:
+      summary: Put Monitor Monitor
+      description: PUT monitor monitor
+      operationId: putMonitorMonitor
+      x-api-path-slug: monitormonitor-id-put
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - Monitor
+      - Monitor
+    delete:
+      summary: Delete Monitor Monitor
+      description: DELETE monitor monitor
+      operationId: deleteMonitorMonitor
+      x-api-path-slug: monitormonitor-id-delete
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - Monitor
+      - Monitor
+  /monitor/mute_all:
+    post:
+      summary: Add Monitor Mute All
+      description: |-
+        Muting will prevent all monitors from notifying through email and posts
+                to the event stream. State changes will only be visible by checking
+                the alert page.
+      operationId: postMonitorMuteAll
+      x-api-path-slug: monitormute-all-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - Monitor
+      - Mute
+      - All
+  /monitor/unmute_all:
+    post:
+      summary: Add Monitor Unmute All
+      description: |-
+        Disables muting all monitors. Throws an error if mute all was
+                not enabled previously.
+      operationId: postMonitorUnmuteAll
+      x-api-path-slug: monitorunmute-all-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - Monitor
+      - Unmute
+      - All
+  /monitor/:monitor_id/mute:
+    post:
+      summary: Add Monitor Monitor  Mute
+      description: POST monitor monitor  mute
+      operationId: postMonitorMonitorMute
+      x-api-path-slug: monitormonitor-idmute-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - Monitor
+      - Monitor
+      - ""
+      - Mute
+  /dash:
+    post:
+      summary: Add Dash
+      description: Create a Timeboard
+      operationId: postDash
+      x-api-path-slug: dash-post
+      parameters:
+      - in: query
+        name: '{requests: [{q: system.cpu.idle{} by {host}}'
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - Dash
+    get:
+      summary: Get Dash
+      description: Get all Timeboards
+      operationId: getDash
+      x-api-path-slug: dash-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - Dash
+  /dash/:dash_id:
+    put:
+      summary: Put Dash Dash
+      description: Update a Timeboard
+      operationId: putDashDash
+      x-api-path-slug: dashdash-id-put
+      parameters:
+      - in: query
+        name: '{requests: [{q: system.cpu.idle{} by {host}}'
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - Dash
+      - Dash
+    delete:
+      summary: Delete Dash Dash
+      description: Delete a Timeboard
+      operationId: deleteDashDash
+      x-api-path-slug: dashdash-id-delete
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - Dash
+      - Dash
+  user:
+    post:
+      summary: Add User
+      description: POST user
+      operationId: postUser
+      x-api-path-slug: user-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - User
+    get:
+      summary: Get User
+      description: GET user
+      operationId: getUser
+      x-api-path-slug: user-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - User
+  user/:handle:
+    get:
+      summary: Get User Handle
+      description: GET user handle
+      operationId: getUserHandle
+      x-api-path-slug: userhandle-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - User
+      - Handle
+    put:
+      summary: Put User Handle
+      description: Can only be used with application keys belonging to administrators.
+      operationId: putUserHandle
+      x-api-path-slug: userhandle-put
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - User
+      - Handle
+  graph/embed:
+    get:
+      summary: Get Graph Embed
+      description: Gets a list of previously created embeddable graphs.
+      operationId: getGraphEmbed
+      x-api-path-slug: graphembed-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - Graph
+      - Embed
+    post:
+      summary: Add Graph Embed
+      description: Creates a new embeddable graph.
+      operationId: postGraphEmbed
+      x-api-path-slug: graphembed-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - Graph
+      - Embed
+  graph/embed/:embed_id:
+    get:
+      summary: Get Graph Embed Embed
+      description: Get the HTML fragment for a previously generated embed with embed_id.
+      operationId: getGraphEmbedEmbed
+      x-api-path-slug: graphembedembed-id-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - Graph
+      - Embed
+      - Embed
+  graph/embed/:embed_id/enable:
+    get:
+      summary: Get Graph Embed Embed  Enable
+      description: Enable a specified embed.
+      operationId: getGraphEmbedEmbedEnable
+      x-api-path-slug: graphembedembed-idenable-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - Graph
+      - Embed
+      - Embed
+      - ""
+      - Enable
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

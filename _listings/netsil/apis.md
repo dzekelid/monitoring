@@ -1,23 +1,15 @@
 ---
 name: Netsil
-description: 'Netsil automatically discovers your applicationrsquo;s topology and
-  builds a map of services and stakeholders so that you can visually locate hotspots
-  and failures faster. Therersquo;s no more code instrumentation, no more hunting
-  through manual documentation to understand services and dependencies.Netsil works
-  the way you want to work: quickly, iteratively and collaboratively. Finally, a solution
-  designed for microservices, containers and modern distributed systems. Download
-  Netsil for the monitoring and performance analytics needs of your production applications.'
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/netsil-logo.png
+x-slug: netsil
+description: Netsil provides observability and monitoring for cloud apps. DevOps teams
+  use Netsils auto-discovered maps & analytics to assure uptime and performance.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19932-netsil.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Monitoring
-- Microservices
-- Analysis
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/monitoring/master/_listings/netsil/apis.yaml
+x-alexaRank: "1205185"
+tags: Monitoring
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/netsil/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -25,8 +17,16 @@ x-common:
   url: https://blog.netsil.com
 - type: x-blog-rss
   url: https://blog.netsil.com/feed
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/netsil
+- type: x-email
+  url: hello@netsil.com
+- type: x-email
+  url: support@netsil.com
 - type: x-github
   url: https://github.com/netsil
+- type: x-integrations
+  url: https://netsil.com/integrations/
 - type: x-twitter
   url: https://twitter.com/Netsil_HQ
 - type: x-website

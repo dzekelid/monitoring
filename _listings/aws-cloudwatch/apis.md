@@ -1,5 +1,6 @@
 ---
 name: AWS CloudWatch
+x-slug: aws-cloudwatch
 description: Amazon CloudWatch is a monitoring service for AWS cloud resources and
   the applications you run on AWS. You can use Amazon CloudWatch to collect and track
   metrics, collect and monitor log files, set alarms, and automatically react to changes
@@ -11,30 +12,18 @@ description: Amazon CloudWatch is a monitoring service for AWS cloud resources a
   insights to react and keep your application running smoothly.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Monitoring
-- Management
-- Logging
-- Analysis
-- Amazon Web Services
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/monitoring/master/_listings/aws-cloudwatch/apis.yaml
+x-alexaRank: "0"
+tags: Monitoring
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/aws-cloudwatch/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Amazon CloudWatch API
-  description: Amazon CloudWatch is a monitoring service for AWS cloud resources and
-    the applications you run on AWS
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
-  humanURL: ""
-  baseURL: :///
-  tags: Monitoring
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/monitoring/master/_listings/aws-cloudwatch/action-setalarmstate-.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://aws.cloudsearch.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.cloudwatch.stack.network
 - type: x-articles
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=100
 - type: x-blog

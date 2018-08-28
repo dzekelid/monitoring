@@ -1,40 +1,28 @@
 ---
 name: SmartBear Software
-description: SmartBear Software provides tools for over 100,000 software professionals
-  to build, test, and monitor some of the best software applications and websites
-  anywhere on the desktop, mobile and in the cloud.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
+x-slug: smartbear-software
+description: Testing and Development teams around the world use SmartBears automation,
+  development and monitoring tools to build better software and applications.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1157-smartbear-software.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Virtualization
-- Testing
-- Stack Network
-- Security
-- Performance
-- Monitoring
-- API LIfeycle
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/monitoring/master/_listings/smartbear-software/apis.yaml
+x-alexaRank: "35193"
+tags: Monitoring
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/smartbear-software/apis.md
 specificationVersion: "0.14"
-apis:
-- name: TestServer REST API
-  description: SmartBear Software provides tools for over 100,000 software professionals
-    to build, test, and monitor some of the best software applications and websites
-    anywhere on the desktop, mobile and in the cloud
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
-  humanURL: ""
-  baseURL: ://testserver.readyapi.io:8080//v1
-  tags: Monitoring
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/monitoring/master/_listings/smartbear-software/readyapi-executions-executionid-transactions-transactionid-get.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://slack.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://smartbear.software.stack.network
 - type: x-blog
   url: http://blog.smartbear.com/
 - type: x-blog-rss
   url: http://feeds.feedburner.com/smartbear
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/smart-bear-software
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/smart-bear-software
 - type: x-github

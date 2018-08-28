@@ -1,24 +1,25 @@
 ---
 name: API Fortress
-description: 'Test. Monitor. Automate: API Fortress is an enterprise cloud solution
-  to test, monitor, and automate the testing of APIs and web services. Create a response
-  validation test using our simple wizard, schedule the test to run multiple times
-  a day, and monitor the updates sent to your inbox.'
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-fortress.png
+x-slug: api-fortress
+description: 'API Fortress: Automated API Testing for Enterprises'
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2946-api-fortress.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Testing
-- Stack Network
-- Monitoring
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/monitoring/master/_listings/api-fortress/apis.yaml
+x-alexaRank: "2924665"
+tags: Monitoring
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/api-fortress/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
 - type: x-blog
   url: http://apifortress.com/blog/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/api-fortress
+- type: x-email
+  url: info@apifortress.com
+- type: x-email
+  url: support@apifortress.com
 - type: x-twitter
   url: https://twitter.com/apifortress
 - type: x-website

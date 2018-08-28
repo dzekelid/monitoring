@@ -1,19 +1,15 @@
 ---
 name: Uptrends
-description: Uptrends is all about Cloud-based website performance and network monitoring.
-  We are proud to say that we have become a trusted standard in network and website
-  performance monitoring since our founding in 2007. We are developers at heart and
-  our highly skilled professionals are dedicated to helping you to get the most out
-  of our monitoring services.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uptrends-monitoring-logo.png
+x-slug: uptrends
+description: Monitor website uptime, optimize performance and monitor multiple steps
+  from 165+ locations, incl. alerts. Free & paid website monitoring services.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19939-uptrends.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Monitoring
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/monitoring/master/_listings/uptrends/apis.yaml
+x-alexaRank: "78130"
+tags: Monitoring
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/monitoring/master/_listings/uptrends/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
